@@ -124,20 +124,18 @@ streamlit run web_app.py
 ---
 # LiteLLM Gateway
 
-项目接入 LiteLLM API Gateway。
+项目通过 LiteLLM 管理 LLM API。
 
-架构：
+启动：
 
-LangChain
-   ↓
-LiteLLM
-   ↓
-ModelScope DeepSeek-V3.2
+```bash
+litellm --config config.yaml
+```
 
+支持：
 
-支持后续扩展：
-
+- DeepSeek
 - OpenAI
-- Gemini
-- Claude
 - Qwen
+- Gemini
+```
