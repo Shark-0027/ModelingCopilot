@@ -114,5 +114,11 @@ DEEPSEEK_API_KEY=your_api_key
 ```bash
 python app.py
 ```
+# Web Demo
 
+运行：
+
+```bash
+streamlit run web_app.py
+```
 ---
