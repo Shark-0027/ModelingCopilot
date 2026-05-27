@@ -1,4 +1,3 @@
-# MathModel-Agent
 
 基于 LangChain 与 LangGraph 的数学建模智能 Agent。
 
