@@ -17,5 +17,8 @@ print(result["analysis"])
 print("\n【算法推荐】\n")
 print(result["algorithm"])
 
+print("\n【工具推荐结果】\n")
+print(result["tool_result"])
+
 print("\n【论文结构】\n")
 print(result["paper"])
