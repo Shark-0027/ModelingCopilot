@@ -1,0 +1,6 @@
+model_list:
+  - model_name: deepseek-v3
+    litellm_params:
+      model: openai/deepseek-ai/DeepSeek-V3.2
+      api_base: https://api-inference.modelscope.cn/v1
+      api_key: os.environ/MODELSCOPE_API_KEY

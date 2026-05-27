@@ -2,7 +2,9 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 import os
-from utils.llm import llm
+from utils.llm import get_llm
+
+llm = get_llm()
 
 prompt = PromptTemplate.from_template("""
 

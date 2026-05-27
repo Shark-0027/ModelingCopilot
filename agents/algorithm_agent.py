@@ -3,7 +3,10 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 import os
 
-from utils.llm import llm
+from utils.llm import get_llm
+
+llm = get_llm()
+
 prompt = PromptTemplate.from_template("""
 你是一名数学建模算法专家。
 

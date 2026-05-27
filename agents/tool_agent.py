@@ -3,16 +3,11 @@ from langchain_core.messages import HumanMessage
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 import os
+from utils.llm import get_llm
 
 load_dotenv()
 
-
-llm = ChatOpenAI(
-    model="deepseek-ai/DeepSeek-V3.2",
-    api_key=os.getenv("OPENAI_API_KEY"),
-    base_url="https://api-inference.modelscope.cn/v1",
-    temperature=0
-)
+llm = get_llm()
 
 @tool
 def recommend_model(problem_type: str) -> str:

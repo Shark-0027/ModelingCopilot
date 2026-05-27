@@ -122,3 +122,22 @@ python app.py
 streamlit run web_app.py
 ```
 ---
+# LiteLLM Gateway
+
+项目接入 LiteLLM API Gateway。
+
+架构：
+
+LangChain
+   ↓
+LiteLLM
+   ↓
+ModelScope DeepSeek-V3.2
+
+
+支持后续扩展：
+
+- OpenAI
+- Gemini
+- Claude
+- Qwen
